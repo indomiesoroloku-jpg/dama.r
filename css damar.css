@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(219, 221, 225);
+}
+.banner{
+    padding: 10px;
+}
+
+nav{
+    padding: 10px 20px;
+}
+nav a{
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+section.home{
+    height: 800px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url("Gemini_Generated_Image_4gg6rs4gg6rs4gg6");
+}
+.containerHome{
+    width: 50%;
+    margin-left: 10px;
+    padding-top: 25px;
+}
+
+section.about {
+   height: 800px;
+}
+.containerAbout{
+    width: 50%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    & img{
+         width:200px;
+    }
+}
+section.profile{
+    height: 800px;
+    padding-top: 50px;
+}
+.cardProfile{
+    background-color: rgb(0, 234, 234);
+    padding: 15px;
+    width:300px;
+    margin: auto;
+    text-align: center;
+}
+img{
+    width:100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height:40px;
+    padding-top:5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+
+}
